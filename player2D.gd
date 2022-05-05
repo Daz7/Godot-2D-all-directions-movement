@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 export (int) var speed = 100
-export (int) var direction = Vector2
+var direction = Vector2.ZERO
 
 func _physics_process(delta):
     # define direction of movement
