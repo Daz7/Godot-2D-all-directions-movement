@@ -1,4 +1,4 @@
-import KinematicBody2D
+extends KinematicBody2D
 
 export (int) var speed = 100
 export (int) var direction : Vector2
